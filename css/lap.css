@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #777;
+    line-height: 24px;
+    display: block;
+}
+.header{
+    float: left;
+    width: 100%
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: #777;
+}
+li{
+    list-style: none;
+}
+.header-menu-slide{
+    width: calc(100% - 30px);
+    background-color: #fdf8f1;
+    margin: 15px;
+}
+.logo{
+    text-align: center;
+}
+.logo img{
+    margin: 0 auto;
+    padding-top: 60px;
+}
+.menu-bar{
+    float: left;
+    width: 100%;
+    display: inline-block;
+    height: 90px;
+    padding-top: 32px;
+    position: relative;
+}
+.search{
+    float: left;
+    width: 10%;
+    padding-top: 3px;
+}
+#search-icon{
+    width: 20px;
+    height: 20px;
+}
+.main-menu{
+    float: left;
+    width: 80%;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.main-menu li{
+    float: left;
+    margin: 0 30px;
+}
+.top-bar-right{
+    float: right;
+    width: 10%;
+    display: inline-block;
+    position: relative;
+}
+.top-bar-right a{
+    margin-left: 30px;
+}
+#cart-icon{
+    width: 25px;
+    height: 25px;
+}
+#menu-icon{
+    width: 30px;
+    height: 30px;
+}
+.banner-slide{
+    margin-top: 90px;
+    height: 435px;
+    position:relative;
+}
+#banner1{
+    position: absolute;
+    top: 50px;
+    left: 450px;
+    z-index: 3;
+}
+#banner2{
+    position: absolute;
+    top: 70px;
+    left: 500px;
+    z-index: 4;
+}
+#banner3{
+    position: absolute;
+    top: 80px;
+    left: 700px;
+    z-index: 1;
+}
+.banner-caption{
+    max-width: 423px;
+    max-height: 133px;
+    text-align: inherit;
+    border-width: 0;
+    margin: 0;
+    padding: 0;
+    white-space: normal;
+    font-size: 60px;
+    line-height: 66px;
+    font-weight: 400;
+    color: #de3131;
+    font-family: 'Poiret One', sans-serif;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+.banner-button{
+    text-transform: uppercase;
+    color: #777;
+    background-color: #f2d9d6;
+    padding: 16px 56px;
+    border: none;
+    position: absolute;
+    left: 50px;
+    bottom: 150px;
+}
+.top-body-nav-1{
+    float: left;
+    width: 30%;
+    padding-top: 115px;
+    padding-bottom: 50px;
+    margin: 0 30px;
+    display: block;
+    position: relative;
+}
+.top-body-nav-1:first-child{
+    margin-left: 0;
+}
+.top-body-nav-1:last-child{
+    margin-right: 0;
+}
+.top-body-nav-1 img{
+    max-width: 100%;
+}
+.top-body-nav-1-choose{
+    background-color: white;
+    width: 70%;
+    height: 20%;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10%;
+    line-height: 0;
+    position: absolute;
+    bottom: 25%;
+    left: 15%;
+}
