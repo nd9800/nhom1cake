@@ -12,6 +12,7 @@ body
     font-weight:400;
     line-height: 1.5;
     background-color: white;
+    font-family: 'Open Sans';
 }
 a{
     text-decoration: none;
@@ -83,7 +84,7 @@ img{
     color:black;
 }
 
-.logo
+.logo1
 {   width:40px;
     height:40px;
     margin:10px auto;
@@ -101,7 +102,7 @@ img{
     float:left;
 
 }
-.img
+.img-nam
 {
     width:25%;
     float:left;
@@ -144,6 +145,9 @@ width:50%;
 h1{
     font-size:40px;
     margin: 0 0 40px 0;
+    font-weight:300;
+
+
 }
 .menu2 li
 {
@@ -167,6 +171,217 @@ h1{
 .menu-pic
 {
 margin-bottom: 20px;
+}
+.menu-right
+{
+    width:50%;
+    float:right;
+    margin:50px 0;
+}
+.text-menu
+{
+    position:absolute;
+    top: 20px;
+    bottom:10px;
+    left:120px;
+    font-size:20px;
+}
+.staff
+{
+    width:100%;
+    float:left;
+    margin:40px auto;
+    padding:50px 0;
+
+}
+.staff-pic
+{
+    margin :50px 0;
+    float:left;
+    width:25%;
+
+}
+.button
+{
+    float:left;
+    text-align: center;
+    width:100%;
+    margin:0 auto;
+}
+
+*
+{
+    /*Tất cả các phần tử trong html đều ảnh hưởng bởi style trong * , thông thường để đầu tiên*/
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-size: 14px;
+    color: #333333;
+    font-weight:400;
+    line-height: 1.5;
+    background-color: white;
+    font-family: 'Open Sans';
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+img{
+    max-width:100%;
+    /* Để cho ảnh chỉ to bằng box chứa */
+}
+.header,.main,.footer
+{
+    float:left;
+    width:100%;
+}
+.header
+{
+    padding: 20px 0;
+    background-color: #ffffff;
+}
+.container
+{
+    width: 1200px;
+    margin:0 auto;
+
+    /*đặt margin là auto left right sẽ nằm giữa màn hình*/
+}
+.header-left
+{
+    float:left;
+    width:20%;
+}
+.header-right
+{
+    float:right;
+    width:60%;
+}
+
+
+.sidebar
+{
+    float:right;
+    width:33.33%
+}
+.logo
+{
+    font-size: 30px;
+    font-weight: 800;
+    color: #333131;
+
+}
+.menu li
+{
+    /*list-style:none; bỏ chấm ở đầu list*/
+    float:right;
+    margin-left: 25px;
+    padding: 10px 0;
+}
+.menu li:last-child
+{
+    /*Sửa phần tử đầu tiên trong list*/
+    list-style:none;
+}
+.menu li a
+{
+    float:left;
+    font-size: 16px;
+    font-weight:600;
+    text-transform: uppercase; /*lowcase, capitalize, none*/
+    color:black;
+}
+
+.logo1
+{   width:40px;
+    height:40px;
+    margin:10px auto;
+}
+.text
+{
+    width:1200px;
+    margin: 20px auto 40px auto;
+    text-align:center;
+}
+.cat
+{
+    width:1200px;
+    margin: 0 auto 90px auto;
+    float:left;
+
+}
+.img-nam
+{
+    width:25%;
+    float:left;
+}
+
+.price
+{
+    width:100%;
+    text-align: center;
+}
+.comment
+{   width:100%;
+    float:left;
+    background-color: beige;
+}
+.box-center
+{   width:50%;
+    margin:30px auto;
+    background-color: white;
+    text-align: center;
+    padding: 40px 50px 25px 50px;
+    font-size:20px;
+}
+.info
+{   width:100%;
+    float:left;
+}
+.box-left
+{
+    width:50%;
+    float:left;
+    padding:120px;
+}
+.box-right
+{
+    width:50%;
+    float:right;
+    padding:120px;
+}
+h1{
+    font-size:40px;
+    margin: 0 0 40px 0;
+    font-weight:300;
+
+
+}
+.menu2 li
+{
+    padding: 20px;
+    margin: 0 30px;
+    border-bottom: 1px solid black;
+}
+.section-menu{
+    width:100%;
+    float:left;
+    margin:20px auto;
+    padding:50px 0;
+    background-color: beige;
+}
+.menu-left
+{
+    width:50%;
+    float:left;
+    margin:50px 0;
+}
+.menu-pic
+{
+    margin-bottom: 20px;
 }
 .menu-right
 {
