@@ -374,7 +374,6 @@ img{
     width: 1200px;
     margin:0 auto;
 
-    /*đặt margin là auto left right sẽ nằm giữa màn hình*/
 }
 .header-left
 {
@@ -641,7 +640,6 @@ a:hover {
 .Montmartre {
     background-image: url(../img_footer/footer4.jpg);
     width: 100%;
-    height: 100%;
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
