@@ -76,7 +76,7 @@
 
         <div  class="content" >
             <div class="logo1">
-                <img src="img/party.png" height="40px" width="40px" />
+                <img src="img/image0.png" height="40px" width="40px" />
             </div>
 
             <div class="text">
@@ -158,8 +158,38 @@
     </div>
     <div class="comment" style="position: relative">
         <div class="box-center" >
-            <p>Absolutely Wonderful! The Food And Service Were Great. Outstanding Restaurant</p>
+            <div class="content1">
+            <p style="font-size:25px">Absolutely Wonderful! The Food And Service Were Great. Outstanding Restaurant</p>
             <p>Nadia Madrelay</p>
+            </div>
+            <div class="content1">
+            <p style="font-size:25px">I Think Cake Are Wonderful Especially When It Is Baked By A Great Hand</p>
+            <p>Lucas Till</p>
+            </div>
+            <div class="content1">
+            <p style="font-size:25px">I Have Never Had Such A Spectacular Feeling Like This Before</p>
+            <p>Ben Elton</p>
+            </div>
+            <script type="text/javascript" src="js/jquery.js"></script>
+            <script type="text/javascript">
+              let slideIndex = 0;
+              slide();
+
+              function slide() {
+                  let i;
+                  let x = document.getElementsByClassName("content1");
+                  for (i = 0; i < x.length; i++) {
+                      x[i].style.display = "none";
+                  }
+                  slideIndex++;
+                  if (slideIndex > x.length) {
+                      slideIndex = 1
+                  }
+                  x[slideIndex - 1].style.display = "block";
+
+                  setTimeout(slide, 4000);
+              }
+            </script>
         </div>
 
     </div>
@@ -170,12 +200,34 @@
         <div class="box-right">
             <h1>What We Do</h1>
             <ul class="menu2" >
-                <li>WHAT WE DO</li>
-                <li>WEDDINGS</li>
-                <li>BIRTHDAY PARTIES</li>
-                <li>DELIVERY</li>
+                <li><button class="button-menu">WHAT WE DO</button>
+                    <div class="menu2-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec vero pietas adversus deos nec quanta iis gratia debeatur sine explicatione naturae intellegi potest.</div>
+                </li>
+                <li><button class="button-menu">WEDDINGS</button>
+                    <div class="menu2-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec vero pietas adversus deos nec quanta iis gratia debeatur sine explicatione naturae intellegi potest.</div>
+                </li>
+                <li><button class="button-menu">BIRTHDAY PARTIES</button>
+                    <div class="menu2-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec vero pietas adversus deos nec quanta iis gratia debeatur sine explicatione naturae intellegi potest.</div>
+                </li>
+                <li><button class="button-menu">DELIVERY</button>
+                    <div class="menu2-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec vero pietas adversus deos nec quanta iis gratia debeatur sine explicatione naturae intellegi potest.</div>
+                </li>
             </ul>
+
         </div>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript">
+            $(".menu2 > li").bind("mouseenter",function(){
+                $(".menu2-content").hide();
+                $(this).children(".menu2-content").slideDown();
+                $(this).children(".button-menu").css("padding-bottom","100px");
+            });
+            $(".menu2 > li").bind("mouseleave",function(){
+                $(".menu2-content").hide();
+                $(this).children(".button-menu").css("padding-bottom","0");
+
+            });
+        </script>
     </div>
     <div class="section-menu">
         <div class="container">
@@ -185,26 +237,29 @@
                     <img src="img/p7-img-1.png" height="110px" width="110px" >
                     <div class="text-menu">
                         <p> Heart Cookies</p>
-
-
                     </div>
+                    <span class="dots"></span>
+                    <span class="text-menu-price" >$22</span>
 
                 </div>
                 <div class="menu-pic" style="position:relative">
                     <img src="img/p7-img-2.png" height="110px" width="110px">
                     <div class="text-menu">
                         <p> Macaroons</p>
-
-
                     </div>
+                    <span class="dots" style=""></span>
+                    <span class="text-menu-price" >$13</span>
                 </div>
                 <div class="menu-pic"style="position:relative">
                     <img src="img/p7-img-3.png" height="110px" width="110px">
                     <div class="text-menu">
-                        <p> Strawberry Muffin</p>
+                        <p> Strawberry Cake</p>
 
 
                     </div>
+
+                    <span class="dots"></span>
+                    <span class="text-menu-price" >$25</span>
                 </div>
             </div>
             <div class="menu-right">
@@ -215,6 +270,8 @@
 
 
                     </div>
+                    <span class="dots"></span>
+                    <span class="text-menu-price" >$32</span>
 
                 </div>
                 <div class="menu-pic" style="position:relative">
@@ -224,6 +281,8 @@
 
 
                     </div>
+                    <span class="dots"></span>
+                    <span class="text-menu-price" >$30</span>
                 </div>
                 <div class="menu-pic"style="position:relative">
                     <img src="img/p7-img-6.png" height="110px" width="110px">
@@ -232,6 +291,8 @@
 
 
                     </div>
+                    <span class="dots"></span>
+                    <span class="text-menu-price" >$26</span>
                 </div>
 
             </div>
