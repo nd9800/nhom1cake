@@ -16,7 +16,7 @@ body{
     float: left;
     width: 100%
 }
-.container{
+.container1{
     width: 1200px;
     margin: 0 auto;
 }
@@ -196,6 +196,11 @@ li{
 {
     width:100%;
     text-align: center;
+
+}
+.price a{
+    text-decoration: none;
+    color:black;
 }
 .comment
 {   width:100%;
@@ -264,6 +269,7 @@ h1{
     width:400px;
     display:none;
     padding:50px 0 ;
+    font-weight:300;
 }
 .section-menu{
     width:100%;
@@ -369,7 +375,7 @@ img{
     padding: 20px 0;
     background-color: #ffffff;
 }
-.container
+.container1
 {
     width: 1200px;
     margin:0 auto;
@@ -490,6 +496,11 @@ h1{
     padding: 20px;
     margin: 0 30px;
     border-bottom: 1px solid black;
+}
+.content1
+{
+    font-size:25px;
+    font-weight: 300;
 }
 .section-menu{
     width:100%;
