@@ -1,0 +1,299 @@
+*{
+    /* tat ca cac the deu bi anh huong*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    color: #333333;
+    background-color: #f2f2f2;
+    font-width: 400;
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.header,.main,.footer{
+    float: left;
+    width: 100%;
+}
+.container{
+    width:1200px;
+    margin: 0 auto;
+}
+.logo{
+    text-align: center;
+    font-size: 30px;
+}
+.logo1{
+    float: left;
+    width: 100%;
+}
+.box1 li{
+    float: left;
+    margin-top: 50px;
+    padding: 10px 100px;
+    list-style: none;
+}
+.box5{
+    background-color: lightgray;
+    border-radius: 20px;
+    margin-left: 10px;
+    padding: 10px 25px;
+}
+.box2{
+    margin-right: 10px;
+    border: solid red thin;
+    padding: 10px 25px;
+}
+.box3{
+    margin-right: 10px;
+    border: red solid thin;
+    padding: 10px 25px;
+}
+.box4{
+    margin-right: 10px;
+    border: thin red solid;
+    padding: 10px 25px;
+}
+.text1{
+    margin-top: 100px;
+}
+.link{
+    color: black;
+}
+.our{
+    width: 100%;
+
+}
+.chude{
+    text-align: center;
+    font-size: 40px;
+    font-weight: initial;
+}
+.main{
+    margin-top: 50px;
+}
+.chude1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.art-line {
+    background: red;
+    left: 50%;
+    margin-left: -1px;
+    position: absolute;
+    right: 50%;
+    height: 350%;
+    width: 1px;
+}
+.hop1{
+    width: 48%;
+    float: left;
+    height: 400px;
+}
+.hopk{
+    width: 100%;
+    height: 80px;
+}
+.mat1{
+    width: 100%;
+    float: left;
+}
+.anh
+{
+    margin-top: 20px;
+    width: calc(100% - 30px );
+    height: calc(100%- 500px);
+}
+.circle-line{
+    border-radius: 50%;
+    height: 1px;
+    left: calc( 50% + 7px);
+    margin: 0 0 0 -8px;
+    position: absolute;
+    width: 30px;
+    background: red;
+    margin-top: 90px;
+}
+.circle{
+    border-radius: 50%;
+    height: 5px;
+    left: 50%;
+    margin: 0 0 0 -8px;
+    position: absolute;
+    background-color: blue;
+    width: 5px;
+    border: 5px solid #fff;
+
+}
+.nam{
+    font-family: "Times New Roman";
+    text-align: center;
+    font-size: 30px;
+    float: left;
+    padding: 45px 20px 40px 5px;
+    font-weight: initial;
+    color: red;
+    margin-top: 20px;
+
+}
+.hop2{
+    margin-top: 80px;
+    width: 46%;
+    float: right;
+    height: 400px;
+}
+.chude2{
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 50px;
+}
+.tieude{
+    font-size: 15px;
+    font-weight: 100;
+}
+.trang3{
+    margin-top: 100px;
+}
+.mat2{
+    width: 100%;
+    float: left;
+    margin-top: 150px;
+}
+.hop3{
+    width: 48%;
+    float: left;
+    height: 400px;
+}
+.year1{
+    width: calc( 50% + 190px);
+    float: left;
+}
+.nam1{
+    font-family: "Times New Roman";
+    text-align: center;
+    font-size: 30px;
+    float: right;
+    padding: 90px 25px 60px 5px;
+    font-weight: initial;
+    color: red;
+}
+.circle-line1{
+    border-radius: 50%;
+    height: 1px;
+    left: calc( 50% - 30px);
+    margin: 0 -8px 0 0;
+    position: absolute;
+    width: 30px;
+    background: red;
+    margin-top: 115px;
+}
+.hop4{
+    width: 48%;
+    float: right;
+    height: 400px;
+}
+.anh1{
+    float: right;
+    margin-top: 0;
+    width: 100%;
+    margin-top: -200px;
+}
+.mat3{
+    width: 100%;
+    float: left;
+    margin-top: 50px ;
+}
+.hop5{
+    width: 48%;
+    float: left;
+    height: 400px;
+}
+.anh2{
+    width: calc(100% - 30px );
+    height: calc(100%- 500px);
+}
+.circle-line2{
+    border-radius: 50%;
+    height: 1px;
+    left: calc( 50% + 7px);
+    margin: 0 0 0 -8px;
+    position: absolute;
+    width: 30px;
+    background: red;
+    margin-top: 90px;
+}
+.hop6{
+    margin-top: 80px;
+    width: 46%;
+    float: right;
+    height: 400px;
+}
+.nam2{
+    font-family: "Times New Roman";
+    text-align: center;
+    font-size: 30px;
+    float: left;
+    padding: 45px 20px 40px 5px;
+    font-weight: initial;
+    color: red;
+    margin-top: 20px;
+}
+.year{
+    margin-left: 10%;
+    float: left;
+    width: 45%;
+}
+.year1{
+    float: left;
+    width: 45%;
+    margin-left: 20%;
+}
+.mat4{
+    width: 100%;
+    float: left;
+    margin-top: 150px;
+}
+.hop7{
+    width: 48%;
+    float: left;
+    height: 400px;
+}
+.nam3{
+    font-family: "Times New Roman";
+    text-align: center;
+    font-size: 30px;
+    float: right;
+    padding: 90px 25px 60px 5px;
+    font-weight: initial;
+    color: red;
+}
+.circle-line3{
+    border-radius: 50%;
+    height: 1px;
+    left: calc( 50% - 30px);
+    margin: 0 -8px 0 0;
+    position: absolute;
+    width: 30px;
+    background: red;
+    margin-top: 115px;
+}
+.hop8{
+    margin-top: 100px;
+    width: 48%;
+    float: right;
+    height: 400px;
+}
+.anh3{
+    float: right;
+    margin-top: 0;
+    width: 100%;
+    margin-top: -200px;
+}
