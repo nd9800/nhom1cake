@@ -178,6 +178,8 @@ li{
     width:1200px;
     margin: 20px auto 40px auto;
     text-align:center;
+    font-family: 'Poiret One', sans-serif;
+
 }
 .cat
 {
@@ -185,6 +187,10 @@ li{
     margin: 0 auto 90px auto;
     float:left;
 
+}
+.cat p
+{
+    font-weight: 700;
 }
 .img-nam
 {
@@ -196,11 +202,17 @@ li{
 {
     width:100%;
     text-align: center;
+    font-family: 'Poiret One', sans-serif;
+
 
 }
 .price a{
     text-decoration: none;
     color:black;
+    font-weight: 600;
+    font-size:20px;
+    margin-bottom:5px;
+
 }
 .comment
 {   width:100%;
@@ -227,16 +239,20 @@ outline:none;
     text-align: center;
     padding: 40px 50px 25px 50px;
     font-size:20px;
+    font-family: 'Poiret One', sans-serif;
+
 }
 .info
 {   width:100%;
     float:left;
+    font-family: 'Poiret One', sans-serif;
+
 }
 .box-left
 {
     width:50%;
     float:left;
-    padding:120px;
+    padding:140px;
 }
 .box-right
 {
@@ -256,6 +272,7 @@ h1{
     padding: 20px;
     margin: 0 30px;
     border-bottom: 1px solid black;
+    font-weight: 600;
 }
 .menu2 > li
 {
@@ -268,14 +285,18 @@ h1{
     float:left;
     width:400px;
     display:none;
-    padding:50px 0 ;
-    font-weight:300;
+    padding:40px 0 ;
+    font-weight:400;
+    font-size:15px;
+
 }
 .section-menu{
     width:100%;
     float:left;
     margin:20px auto;
     background-image:url(../img/h1-img-3-2.jpg);
+    font-family: 'Poiret One', sans-serif;
+
 }
 .menu-left
 {
@@ -321,18 +342,13 @@ h1{
 .staff
 {
     width:100%;
-    float:left;
+
     margin:40px auto;
     padding:50px 0;
+    font-family: 'Poiret One', sans-serif;
 
 }
-.staff-pic
-{
-    margin :50px 0;
-    float:left;
-    width:25%;
 
-}
 .button
 {
     float:left;
@@ -452,8 +468,10 @@ img{
 
 .price
 {
-    width:100%;
+    width:178px;
     text-align: center;
+    margin-top:10px;
+
 }
 .comment
 {   width:100%;

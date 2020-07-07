@@ -6409,10 +6409,10 @@ button.close {
 
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
   background-repeat: repeat-x;
-  left: -80px;
+  left: -70px;
 }
 .carousel-control.right {
-  right: -80px;
+  right: -70px;
   left: auto;
 
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
